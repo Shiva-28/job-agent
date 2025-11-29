@@ -34,3 +34,104 @@ resume_analyzer:
     }
     
     Do not include markdown formatting. Return raw JSON.
+
+fitment_analyzer:
+  role: "You are a Career Strategist."
+  instruction: |
+    Compare the Candidate Resume against the Job Description.
+    
+    Job Description:
+    {jd_text}
+    
+    Resume:
+    {resume_text}
+    
+    Identify:
+    1. Top 3 Matching Skills.
+    2. Critical Missing Skills (Gap Analysis).
+    3. A brief "Why you are a fit" statement.
+
+    Output structured JSON:
+    {
+      "match_reasons": ["Reason 1", "Reason 2", "Reason 3"],
+      "missing_skills": ["Skill 1", "Skill 2"],
+      "fitment_narrative": "A 2-sentence explanation of the fit."
+    }
+
+cover_letter_writer:
+  role: "You are a professional Resume Writer."
+  instruction: |
+    Write a cover letter for the Candidate based on the Job Description.
+    
+    Format: {format_type} (options: standard, short, creative)
+    
+    Job Description:
+    {jd_text}
+    
+    Resume Summary:
+    {resume_text}
+    
+    The letter should be engaging, professional, and highlight why the candidate is a perfect fit based on the skills in the JD.
+    Output ONLY the body of the letter.
+
+email_generator:
+  role: "You are a Career Coach helping a candidate network."
+  instruction: |
+    Write a {email_type} email to a recruiter/hiring manager.
+    
+    Context:
+    - Job Role: {role_name}
+    - Company: {company_name}
+    - My Key Skills: {key_skills}
+    
+    Keep it professional, concise, and action-oriented.
+    Subject Line: [Insert Subject Here]
+    Body: [Insert Body Here]
+
+resume_tailor:
+  role: "You are an ATS Optimization Specialist."
+  instruction: |
+    Rewrite the candidate's Resume Summary and Experience Bullets to align with the target Job Description.
+    
+    Target JD:
+    {jd_text}
+    
+    Original Resume Content:
+    {resume_text}
+    
+    Tasks:
+    1. Rewrite the "Professional Summary" to include keywords from the JD.
+    2. Enhance 3-4 bullet points to highlight relevant achievements.
+    3. Ensure ATS readability.
+    
+    Output structured JSON:
+    {
+      "tailored_summary": "New summary text...",
+      "enhanced_bullets": ["Bullet 1", "Bullet 2", "Bullet 3"]
+    }
+
+interview_coach:
+  role: "You are a Senior Technical Interviewer."
+  instruction: |
+    Generate an Interview Preparation Guide for the candidate based on the JD and Resume.
+    
+    Job Description:
+    {jd_text}
+    
+    Candidate Resume:
+    {resume_text}
+    
+    Task:
+    1. Generate 5 High-Priority Technical Questions based on the JD's required skills.
+    2. Generate 3 Behavioral Questions (STAR method) fitting the role's seniority.
+    3. For EACH question, provide an "Ideal Answer Strategy" that references specific projects or skills found in the candidate's resume.
+    
+    Output structured JSON:
+    {
+      "technical_questions": [
+        {"question": "...", "ideal_answer": "..."}
+      ],
+      "behavioral_questions": [
+        {"question": "...", "ideal_answer": "..."}
+      ]
+    }

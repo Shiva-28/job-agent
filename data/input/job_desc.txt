@@ -1,1 +1,78 @@
-This is a test job description looking for Python developers
+Job Description — AI Engineer (Generative AI & LLMs)
+
+Company: Global Fortune 100 Technology / Consulting MNC
+Location: Bengaluru / Hyderabad / Pune / Gurgaon
+Experience: 2–6 years
+Employment Type: Full-time
+
+Role Overview
+
+We are looking for an AI Engineer with strong experience in Generative AI, Large Language Models (LLMs), and end-to-end machine learning pipelines. The role involves building scalable AI/ML solutions, designing agentic workflows, integrating vector search, and deploying models to production on cloud platforms.
+
+You will collaborate with product, engineering, and research teams to deliver enterprise-grade AI applications across multiple industry domains.
+
+Key Responsibilities
+
+Develop, fine-tune, and optimize LLM-powered applications using GPT, Gemini, Claude, Llama, or similar foundation models.
+
+Build RAG (Retrieval-Augmented Generation) pipelines, including document ingestion, chunking strategies, embeddings, and vector search.
+
+Design and implement autonomous agent workflows using LangChain, LangGraph, or custom agent frameworks.
+
+Build and deploy AI microservices using Python, FastAPI/Flask, and cloud platforms (GCP/AWS/Azure).
+
+Develop prompt engineering strategies, tool-calling logic, and structured output mechanisms.
+
+Work with vector databases such as FAISS, Pinecone, Chroma, Weaviate, or Milvus.
+
+Create automation solutions for document understanding, summarization, search, and recommendation systems.
+
+Collaborate with cross-functional teams to design and implement ML system architectures and scalable data pipelines.
+
+Contribute to model evaluation, benchmarking, quality assurance, and hallucination reduction techniques.
+
+Implement CI/CD workflows, containerization, and monitoring for production AI systems.
+
+Required Qualifications
+
+Bachelor’s or Master’s degree in Computer Science, Engineering, Data Science, or related field.
+
+2–6 years of hands-on experience in Machine Learning / NLP / Generative AI.
+
+Strong proficiency in Python and ML frameworks (PyTorch, TensorFlow, HuggingFace Transformers).
+
+Experience with LLM application development, including fine-tuning, prompt design, and reasoning models.
+
+Hands-on experience with LangChain, LangGraph, or agent-based frameworks.
+
+Strong understanding of vector embeddings, semantic search, and RAG systems.
+
+Knowledge of cloud platforms like GCP Vertex AI, AWS Sagemaker, Azure OpenAI.
+
+Experience deploying ML models using Docker, Kubernetes, Cloud Run, Lambda, or AKS.
+
+Solid understanding of APIs, microservices, and backend development.
+
+Preferred Qualifications
+
+Experience with MLOps and model monitoring frameworks (MLflow, Vertex Pipelines).
+
+Understanding of LLM safety, guardrails, and evaluation frameworks.
+
+Exposure to enterprise-level document intelligence and OCR pipelines.
+
+Experience in building multi-agent systems, planning-based agents, and tool orchestration.
+
+Contributions to open-source AI/ML projects or research publications.
+
+What We Offer
+
+Work on cutting-edge enterprise AI solutions used globally.
+
+Collaboration with top AI researchers, architects, and industry leaders.
+
+Access to cloud credits, advanced LLM models, and internal research tools.
+
+Clear career progression and opportunities to specialize in agentic AI, LLM architectures, or MLOps.
+
+Competitive compensation and employee benefits package.
